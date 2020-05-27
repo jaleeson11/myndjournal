@@ -1,0 +1,307 @@
+
+@media screen and (max-width: 768px) {
+
+/*** Home Section ***/
+
+#logo img {
+    max-width: 180px;
+}
+
+.col {
+    width:100%;
+    float:none;
+}
+
+.header-content .col img {
+    display:none;
+}
+
+.col img {
+    margin-top:20px;
+    float:left;
+}
+
+
+/*** Breadcrumb ***/
+
+.breadcrumb {
+    display:none;
+}
+
+
+/*** Control Panel ***/
+
+/* Side Bar */
+.side-bar-logo {
+    margin-bottom:20px;
+}
+
+.side-bar-logo #mobile {
+    display:block;
+    width:40%;
+    margin:0 auto;
+}
+
+.side-bar-logo #desktop {
+    display:none;
+}
+
+ul.sidebar-panel-nav > li > a {
+    text-align:center;
+    display:block;
+    font-size:.9rem;
+}
+
+ul.sidebar-panel-nav > li > a > .fas {
+    font-size:1.5rem;
+    width:100%;
+    margin-bottom:5px;
+}
+
+/* Mobile Navigation */
+#mobile-nav {
+    display:block;
+}
+
+/* Dashboard */
+.journal {
+    width:100%;
+    margin-bottom:20px;
+}
+
+
+/*** Journals ***/
+
+.entry .thought {
+    width:100%;
+}
+
+.entry .situation {
+    font-size:1.6em;
+}
+
+.entry .emotions {
+    width:100%;
+}
+
+.entry .gratitudes {
+    width:100%;
+}
+
+
+/*** Journal Entry Form ***/
+
+#entry-form #j-form {
+    width:100%;
+}
+
+#entry-form .steps {
+    width:100%;
+    padding-left:0;
+}
+
+.steps .steps-segment {
+    position:relative;
+}
+
+.steps:not(.is-vertical) .steps-segment:not(:last-child):after {
+    height: .2em;
+    width:100%;
+    left: 1rem;
+    right: -.24rem;
+    top: calc(1rem - .6em);
+}
+
+.steps:not(.is-vertical) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.steps .steps-marker {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.steps:not(.is-vertical).has-content-centered {
+    text-align: center;
+}
+
+.steps:not(.is-vertical).has-content-centered .steps-marker {
+    position: absolute;
+    left: calc(50% - 1rem);
+}
+
+.steps:not(.is-vertical).has-content-centered .steps-segment:not(:last-child):after {
+    left: 50%;
+    right: -50%;
+}
+
+.steps:not(.is-vertical).has-content-centered .steps-content {
+    margin-top:25px;
+    margin-left:0;
+}
+
+.steps-content p {
+    font-size:13px;
+}
+
+.steps .steps-segment {
+    height:auto;
+}
+
+#entry-form input[type="text"] {
+    width:90%;
+}
+
+.steps {
+    margin-bottom:20px;
+}
+
+
+/*** Modal ***/
+
+.modal-container {
+    width:70%;
+}
+
+.btn-modal {
+    width:100%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+/*** Home Section ***/
+
+/* Footer */
+#footer {
+    text-align:center;
+}
+
+.copyright {
+    float:none;
+}
+
+.footer-links {
+    float:none;
+}
+
+.footer-links li {
+    display:block;
+}
+
+/* Home Content */
+.col img {
+    width:100%;
+    float:none;
+}
+
+
+/*** Journals ***/
+
+.selections ul {
+    width: 100%;
+    float:none;
+}
+
+
+/*** Control Panel ***/
+
+/* Side Bar */
+ul.sidebar-panel-nav > li > a {
+    text-align:center;
+    display:block;
+    font-size:.7rem;
+}
+
+
+/*** Journal Entry Form ***/
+
+/* Entry Checkbox */
+.cb-container {
+    display:block;
+    width:60%;
+}
+
+/* Day Ratings */
+.day-rating label {
+    width:17%;
+}
+
+.control-wrapper {
+    width:100%;
+    float:none;
+}
+
+.submit-wrapper {
+    width:100%;
+    float:none;
+}
+
+
+/*** Modal ***/
+
+.modal-container {
+    width:80%;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+/*** Journals ***/
+
+.entry-controls form {
+    float:none;
+}
+
+.entry-controls .btn-primary {
+    width:100%;
+}
+
+.selections ul {
+    width: 80%;
+    float:none;
+}
+
+.journal-header {
+    text-align:center;
+}
+
+.journal-header h1 {
+    width:100%;
+    margin-bottom:5px;
+}
+
+.journal-header .btn-primary {
+    width:100%;
+}
+
+
+/*** Journal Entry Form ***/
+
+/* Entry Steps */
+.steps-content {
+    display:none;
+}
+
+.steps {
+    margin-bottom:50px;
+}
+
+/* Entry Checkbox */
+.cb-container {
+    width:80%;
+}
+
+
+/*** Modal ***/
+
+.modal-container {
+    width:90%;
+}
+
+}
