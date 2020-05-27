@@ -1,5 +1,6 @@
 # Project Title
 
+CI301 - The Individual Project
 Mynd Journal
 
 ## Description
