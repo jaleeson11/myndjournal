@@ -14,7 +14,7 @@ class AddDescriptionToThinkingTrapsTable extends Migration
     public function up()
     {
         Schema::table('thinking_traps', function (Blueprint $table) {
-            $table->string('tt_description');
+            $table->longText('tt_description');
         });
     }
 
