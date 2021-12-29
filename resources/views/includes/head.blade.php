@@ -19,5 +19,6 @@
 
 <!-- Styles -->
 <link rel="stylesheet" type="text/css" href="{{ asset('css/styles.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}">
 <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
